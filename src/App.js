@@ -3,7 +3,10 @@ import { BrowserRouter as Router,Routes, Route, Switch, Link } from 'react-route
 import LandingPage from './components/LandingPage';
 import Dashboard from './components/Dashboard';
 import EggAnalysis from './components/EggAnalysis';
-import Alerts from './components/Alerts';
+import Alerts from './components/EggAI';
+import Reports from './components/Reports';
+import Settings from './components/Settings';
+import EggAI from './components/EggAI';
 import './App.css';
 
 function App() {
@@ -14,7 +17,9 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/egg-analysis" element={<EggAnalysis />} />
-          <Route path="/alert" element={<Alerts/>} />
+          <Route path="/eggAI" element={<EggAI/>} />
+          <Route path="/reports" element={<Reports/>} />
+          <Route path="/settings" element={<Settings/>} />
         </Routes>
       </div>
     </Router>

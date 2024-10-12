@@ -14,7 +14,7 @@ export default function Dashboard() {
           <ul>
             <li><Link to="/dashboard">Overview</Link></li>
             <li><Link to="/egg-analysis">Egg Analysis</Link></li>
-            <li><Link to="/alerts">Alerts</Link></li>
+            <li><Link to="/eggAI">AI</Link></li>
             <li><Link to="/reports">Reports</Link></li>
             <li><Link to="/settings">Settings</Link></li>
           </ul>
@@ -30,15 +30,7 @@ export default function Dashboard() {
             {/* Placeholder for spectral imaging scan */}
             <div className="spectral-scan">[Spectral Imaging Scan Here]</div>
           </div>
-          <div className="metrics-summary">
-            <h3>Metrics Summary</h3>
-            <ul>
-              <li>Temperature: 25°C</li>
-              <li>Humidity: 50%</li>
-              <li>Contamination Status: Clear</li>
-              <li>Defects Detected: 3</li>
-            </ul>
-          </div>
+         
         </div>
       </div>
     );
